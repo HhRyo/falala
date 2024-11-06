@@ -24,10 +24,8 @@ const USERS_INIT: User[] = [
 ];
 
 export default function Home() {
-  // Manages the state of users - (Requirement: 25 pts for triggering rendering)
   const [users, setUsers] = useState<User[]>(USERS_INIT);
 
-  // Handler for adding a user - (Requirement: Passing input data from Signup to Home - 20 pts)
   const addUser = (user: Omit<User, 'id'>) => {
     setUsers([...users, { ...user, id: users.length + 1 }]);
   };
@@ -35,7 +33,9 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center p-2 bg-gray-100">
       <h1 className="text-4xl font-bold mb-6">Welcome to the Home Page</h1>
+      {/* Passes users as a prop to Users */}
       <Users users={users} />
+      {/* Passes addUser as onAddUser to Signup */}
       <Signup onAddUser={addUser} />
     </div>
   );
