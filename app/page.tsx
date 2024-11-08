@@ -19,7 +19,7 @@ const USERS_INIT: User[] = [
     username: 'blightyear',
     email: 'buzz.lightyear@gmail.com',
     password: 'password',
-    imageUrl: 'https://example.com/image.png',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/en/6/63/Buzz_Lightyear_%28Toy_Story_character%29.png',
   },
 ];
 
