@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import styles from './User.module.css';
 import Card from './Card';
+import React from 'react';
 
 type UserProps = {
   user: {
