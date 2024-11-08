@@ -1,5 +1,6 @@
 "use client";
 import { useState } from 'react';
+import React from 'react';
 import Users from './components/Users';
 import Signup from './components/Signup';
 
@@ -19,7 +20,7 @@ const USERS_INIT: User[] = [
     username: 'blightyear',
     email: 'buzz.lightyear@gmail.com',
     password: 'password',
-    imageUrl: 'https://example.com/image.png',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/en/6/63/Buzz_Lightyear_%28Toy_Story_character%29.png',
   },
 ];
 
@@ -31,8 +32,8 @@ export default function Home() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center p-2 bg-gray-100">
-      <h1 className="text-4xl font-bold mb-6">Welcome to the Home Page</h1>
+    <div className="flex flex-col items-center justify-center p-2 bg-grey-10">
+      <h1 className="text-4xl font-bold mb-6 text-center" >Welcome to the Home Page</h1>
       {/* Passes users as a prop to Users */}
       <Users users={users} />
       {/* Passes addUser as onAddUser to Signup */}

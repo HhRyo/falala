@@ -1,0 +1,75 @@
+/*!**************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./app/components/User.module.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************/
+.User_userItem__FACaF a:hover,
+.User_userItem__FACaF a:active {
+  background: #ffd900;
+}
+.User_userItem__FACaF { display: flex;
+    padding: 12px;}
+
+.User_userContent__rrzh_ {
+  padding: 0;
+}
+
+.User_userImg__46_os {
+  width: 100px;
+  height: 100px;
+  margin-right: 1rem;
+  border-radius: 25%;
+}
+
+
+.User_userInfo__U6VGU h2 {
+  font-size: 1.5rem;
+  margin: 0 0 0.5rem 0;
+  font-weight: normal;
+  color: #52329c;
+  display: inline;
+}
+.User_userInfo__U6VGU h3 {
+    margin: 0.2em 0;
+}
+
+.User_userItem__FACaF:hover h2,
+.User_userItem__FACaF:active h2,
+.User_userItem__FACaF:hover h3,
+.User_userItem__FACaF:active h3 {
+  color: #292929;
+}
+
+.User_userItemInfo__hMB5C h3 {
+  margin: 0;
+}
+/*!*********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./app/components/Card.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************/
+.card {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 10px;
+}
+/*!****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./app/components/Signup.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************/
+.Signup_input__pKBUx {
+    /* margin: 2rem auto; */
+    padding: 1rem;
+    width: 90%;
+    max-width: 40rem;
+    border-color: #4f005f;
+  }
+  
+  .Signup_input__pKBUx input {
+    font: inherit;
+    display: block;
+    width: 100%;
+    border: 1px solid #4f005f;
+    padding: 0.15rem;
+    margin-bottom: 0.5rem;
+    border-color: #4f005f;
+  }
+  
+  .Signup_input__pKBUx input:focus {
+    outline: none;
+    border-color: #4f005f;
+  }
